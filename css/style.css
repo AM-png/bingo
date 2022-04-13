@@ -18,13 +18,25 @@ body {
     border: 5px solid rgb(109, 165, 184);
     display: flex;
 }
+.main > section {
+    display: flex;
+    flex-direction: column-reverse;
+}
 
 div {
     background: honeydew;
-    margin-top: 11px;
+    margin-bottom: 11px;
     margin-left: 14px;
     width: 111px;
     height: 111px;
     border-radius: 50%;
     border: 5px solid rgb(109, 165, 184);
+}
+
+.red{
+	background: rgb(255, 169, 137);
+}
+
+.yellow{
+	background: yellow;
 }
