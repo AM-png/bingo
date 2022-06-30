@@ -1,7 +1,7 @@
-let div = document.querySelector("div")
+let div = document.querySelectorAll("div")
 
-div.addEventListener("click", select)
-
-function select(event) {
-    event.target.style.background = "rgb(255, 169, 137)"
+for (let i = 0; i < div.length; i++) {
+    div[i].addEventListener('click', select = () => {
+        div[i].style.background = "rgb(255, 169, 137)"
+    })
 }
